@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+<body>
+    <div class="content-container">
+        <section class="container">
+            <h1>DIFFERENT BETWEEN NORMAL HTML AND SEMANTICS HTML ELEMENTS</h1>
+            <article>
+               <b> Normal HTML:</b>
+                Developers use generic tags like Div, Span, P, etc., to structure their web pages. While these elements serve the purpose of dividing content into sections and styling them, they don't provide any specific meaning or context to the content they contain. <br><br>
+                   <b> WHILE </b><br><br>
+               <b> Semantic HTML:</b> Semantic HTML, on the other hand, uses elements that carry meaning about the content they enclose. For instance, instead of using a generic Div for a navigation menu, you might use the Nav element. Similarly, instead of using a Div for the main content section, you could use the Main element. Other examples of semantic elements include "header, footer, article, section, aside, figure, figcaption, blockquote,"etc.
+
+            </article>
+            <h1>DISPARITY BETWEEN THE CLOSING TAGS AND THE SELF_CLOSING TAGS</h1>
+            <article>
+                <b>Closing Tags:</b> Most HTML elements require both an opening tag and a corresponding closing tag to define where the element starts and ends. For example: p tag it has an opening and a closing tag. p tag is a paragraph tag. <br>
+                Closing tags are necessary to explicitly define the end of an element's content. They ensure that the browser knows where each element begins and ends, which is crucial for proper rendering and interpretation of the document structure.
+                <br><br>
+               <b> WHILE</b> <br><br>
+                <b>Self-Closing Tags:</b> Some HTML elements do not have any content that needs to be enclosed between opening and closing tags. For such elements, you can use self-closing tags. These tags end with a slash just before the closing angle bracket. For example: img tag
+                Here, img is a self-closing tag. It doesn't contain any content between opening and closing tags because it's used to embed an image into the document. The attributes (src and alt) provide information about the image.
+                Self-closing tags are used for elements that are void or empty, meaning they don't have any content within them. Examples include img, br, hr, etc.
+
+               <b> Conclusion:</b>  <br>
+                The disparity between closing tags and self-closing tags lies in their usage and necessity based on the element's content. Elements that require content between opening and closing tags use the traditional opening and closing tag structure, while elements without content can use self-closing tags for simplicity and clarity in the HTML markup.
+
+            </article>
+        </section>
+    </div>
+</body>
+<style>
+    body{
+        margin: 30px;
+
+    }
+   .container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+   }
+   .container article{
+    font-size: 20px;
+
+   }
+   b{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+</style>
+</html>
