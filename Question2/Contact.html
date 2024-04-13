@@ -6,7 +6,7 @@
     <title>My contact</title>
 </head>
 <body>
- <div >
+ <div class="main">
         <div class="contact">
             <div> 
                 <h1>CONTACT ME</h1>
@@ -34,11 +34,16 @@
 
     }
     .contact{
-        width: 500px;
-        height: 500px;
-        margin: auto; 
+        width: 80%;
+        max-width: 500px;
         background-color: white;  
         padding: 40px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
     .contact h1{
         font-size: 50px;
